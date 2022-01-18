@@ -1,0 +1,596 @@
+*{
+
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color:rgba(204, 204, 204, 0.356);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+ul,a{
+
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+header{
+
+    width: 100%;
+    background-color: rgba(48, 12, 209, 0.7);
+    
+}
+
+#header-cabeçalho{ /* INICIO FORMATAÇÂO CABEÇALHO */
+
+    padding:15px;
+    margin: 0 auto;
+    width: 85%;
+    height: 50px;
+
+}
+
+.menu a{
+
+    font-size: 0.9em;
+}
+
+.menu li{
+
+    display: inline-block;
+    margin-right: 30px;
+    font-weight: bolder;
+}
+
+.logo{
+
+    float: left;
+}
+
+.menu{
+
+    float:  right;
+}
+
+.menu li:hover{
+
+    border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+    color:rgba(204, 204, 204, 0.603);
+}
+
+.logo h2{
+
+    font-size:1.1em;
+    letter-spacing: 3px;
+}
+
+.logo:hover{
+
+    font-size:1.2em;
+    transition: 1s;
+}/* FIM FORMATAÇÂO CABEÇALHO */
+
+
+
+
+.h2{
+
+    text-align: center;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.486);
+    font-size: 0.8em;
+    color: white;
+    padding:15px;
+}
+
+
+
+
+#box-opçoes{
+
+    
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.877);
+    width: 385px;
+    height: 671px;
+}
+
+
+
+.button-cores{ /* INICIO FORMATAÇÂO CORES DE FUNDO */
+
+    padding: 5px;
+}
+
+.button-cores button{
+
+   padding: 13px;
+    margin: 5px;
+    cursor: pointer;
+    outline: none;
+    border: 1px transparent;
+    border-radius: 3px;
+}
+
+.button-cores button:hover{
+
+    border: 2px solid rgb(0, 47, 255);
+    padding: 11px;
+}
+
+
+#vermelho{
+
+    background-color: red;
+
+}
+
+#verde{
+
+    background-color: green;
+
+}
+
+#amarelo{
+
+    background-color: yellow;
+
+}
+
+#branco{
+
+    background-color: white;
+
+}
+
+#azul{
+
+    background-color: blue;
+
+}
+
+#preto{
+
+    background-color: black;
+
+}
+
+#rosa{
+
+    background-color: pink;
+
+}
+
+#Azul-escuro{
+
+    background-color: #00008B;
+
+}
+
+#Alice-azul{
+
+    background-color: #F0F8FF;
+
+}
+
+#Fumaça-branca{
+
+    background-color: #F5F5F5;
+
+}
+
+#Bege{
+
+    background-color: #F5F5DC;
+
+}
+
+#Cardo{
+
+    background-color: #D8BFD8;
+
+}
+
+#po-azul{
+
+    background-color: #B0E0E6;
+
+}
+
+#LuzDouradoAmarelo{
+
+    background-color: #FAFAD2;
+
+}
+
+#Neve{
+
+    background-color: #FFFAFA;
+
+}
+
+#Laranja-Vermelho{
+
+    background-color: #FF4500;
+
+}
+
+#Vermelho-escuro{
+
+    background-color: #8B0000;
+
+}
+
+#roxo{
+
+    background-color: #A020F0;
+
+}
+
+#Chocolate{
+
+    background-color: #D2691E;
+
+}
+
+#Lima{
+
+    background-color: #00FF00;
+
+}
+
+#aço-azul{
+
+    background-color:#4682B4;
+}
+
+#Azul-Medio{
+
+    background-color: 	#0000CD;
+
+}
+
+#Cinza-escuro{
+
+    background-color: 	#A9A9A9;
+
+}
+
+#cinza21{
+
+    background-color: #363636;
+
+}
+
+#Prata{
+
+    background-color: 	#C0C0C0;
+
+}
+
+#Azul-transp{
+
+    background-color: #0e3cd63d;
+
+}
+
+#agua-marinha{
+
+    background-color: #FFFFD4;
+
+}
+
+#Marrom-Rosado{
+
+    background-color: #BC8F8F;
+
+}
+
+#Ameixa{
+
+    background-color: #DDA0DD;
+}
+
+#Pêssego{
+
+    background-color: #FFDAB9;
+}
+
+#Lavanda{
+
+    background-color: #E6E6FA;
+}
+
+#Melada{
+
+    background-color: #F0FFF0;
+
+}/* INICIO FORMATAÇÂO CORES DE FUNDO */
+
+
+
+#limpar{
+
+    cursor: pointer;
+    background-color: #ccc;
+    color: black;
+    font-weight: bolder;
+    width: 45%;
+}
+
+
+.inputs-pessoais{
+
+    margin-top: 10px;
+}
+
+.inputs-pessoais input{
+
+    padding:5px;
+    margin:5px;
+    outline: none;
+    font-size: 0.8em;
+    border-radius: 3px;
+    background-color: whitesmoke;
+
+    
+
+}
+
+.inputs-pessoais input:focus{
+
+    border: 2px solid rgb(21, 36, 255);
+    padding: 5px;
+}
+
+
+.inputs-TEXT{
+
+    padding:10px;
+
+}
+
+.inputs-TEXT input{
+
+    padding:5px;
+    margin:5px;
+    outline: none;
+    font-size: 0.8em;
+    border-radius: 3px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    font-size: 0.9;
+    font-weight: bolder;
+    background-color: #ccc;
+    color: black;
+    width: 40%;
+}
+
+.inputs-TEXT input:focus{
+
+    border: 2px solid rgb(21, 36, 255);
+    color: rgb(54, 17, 17);
+
+
+}
+
+
+
+#folha{
+
+   
+    position: absolute;
+    top:55%;
+    left: 51%;
+    transform: translate(-50% ,-50%);
+    background-color: white;
+    width: 600px;
+    height: 645px;
+    
+}
+
+#folha:hover{
+
+    border: 2px solid #8B008B;
+    border-radius: 1px;
+    transition: 1s;
+}
+
+
+#box-opçoes2{
+
+    
+    position: absolute;
+    top:7%;
+    left: 77%;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.877);
+    width: 353px;
+    height: 671px;
+
+}
+
+
+#black{
+
+    background-color: black;
+
+}
+
+#white{
+
+
+    background-color: white;
+
+}
+
+#red{
+
+    background-color: red;
+
+}
+
+
+#green{
+
+    background-color: green;
+
+}
+
+#blue{
+
+    background-color: blue;
+
+    
+
+}
+
+.inputs-CoresText input{
+
+    padding: 8px;
+    outline: none;
+    border-radius: 3px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.inputs-CoresText input:hover{
+
+    border: 2px solid rgb(0, 47, 255);
+
+    
+
+}
+
+
+.faixaLateral{
+
+    float: left;
+    
+    width: 200px;
+    height: 645px;
+    
+}
+
+
+.inputs-faxaL{
+
+    padding: 20px;
+}
+
+.inputs-faxaL input{
+
+    padding: 8px;
+    outline: none;
+    border-radius: 3px;
+    margin: 15px;
+    cursor: pointer;
+    width: 40%;
+    
+
+}
+
+.inputs-faxaL input:focus{
+
+    border: 2px solid rgb(0, 47, 255);
+
+}
+
+.saves input{
+
+    padding:8px;
+    width: 90%;
+    margin: 10px;
+    background-color: rgb(6, 78, 6);
+    color:white;
+    font-weight: bolder;
+    outline: none;
+    border: 1px solid transparent;
+    cursor: pointer;
+
+}
+
+.Dp{
+
+    
+    position: absolute;
+    left: 20%;
+    
+    width: 360px;
+    height: 100px;
+}
+
+
+#Nome{
+
+    padding:10px;
+    font-size: 0.8em;
+    text-align: center;
+    
+    
+    
+}
+
+#descri{
+
+    font-size: 0.7em;
+    color: rgba(128, 128, 128, 0.863);
+    text-align: center;
+
+}
+
+.email-tele-site{
+
+    position: absolute;
+    top:18%;
+   
+    width:210px;
+    height: 350px; 
+}
+
+#e-mail, #tele, #site{
+    font-size: 0.7em;
+    padding: 5px;
+    line-height: 30px;
+}
+
+.perfil{
+
+    position: absolute;
+    top:60%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+
+    width: 250px;
+    height: 200px;
+}
+
+#perfi{
+
+    text-align: center;
+    font-size: 0.8em;
+}
+
+
+.expe-cursos{
+
+   
+    position: absolute;
+    top:90%;
+    left: 53%;
+    transform: translate(-50%,-50%);
+    width: 250px;
+    height: 100px;
+
+}
+
+#expe{
+
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8em;
+}
