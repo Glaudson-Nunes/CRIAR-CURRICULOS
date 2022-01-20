@@ -17,7 +17,7 @@ window.onload = function Principal(){
     bt4.addEventListener("click", TamanhoPadrao);
     bt5.addEventListener("click",AlterarFont);
     bt6.addEventListener("click", FontePadrao);
-    bt7.addEventListener("click",LimparFolha);
+   bt7.addEventListener("click",LimparFolha);
 
 
 
@@ -176,8 +176,27 @@ function FontePadrao(){
 function LimparFolha(){
 
     let fo = document.getElementById("folha");
+    let fl = document.getElementsByClassName("faixaLateral")[0]
+    let h4_1 = document.getElementsByTagName("h4")[0];
+    let h4_2 = document.getElementsByTagName("h4")[1];
+    let h4_3 = document.getElementsByTagName("h4")[2];
+    let h4_4 = document.getElementsByTagName("h4")[3];
+    let h4_5 = document.getElementsByTagName("h4")[4];
+    let h4_6 = document.getElementsByTagName("h4")[5];
+    let p = document.getElementsByTagName("p")[0];
 
-    fo.innerHTML = "";
+    fo.style.backgroundColor = "white";
+    fl.style.backgroundColor = "transparent";
+    h4_1.innerHTML = "";
+    h4_2.innerHTML = "";
+    h4_3.innerHTML = "";
+    h4_4.innerHTML = "";
+    h4_5.innerHTML = "";
+    h4_6.innerHTML = "";
+    p.innerHTML = "";
+
+   
+   
 
 } /* FUNÇOES DE DADOS PESSOAIS */
 
