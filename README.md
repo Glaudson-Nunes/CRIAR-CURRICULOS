@@ -1,5 +1,5 @@
 # CRIAR-CURRICULOS
-Nesta pagina você pode criar curriculos simples e de maneira rapida, com opçôes para mudar cor de fundo, tamanho do texto, cor do texto, tipo de fonte  e adicionar faixa lateral, simples e eficas
+Nesta pagina você pode criar curriculos simples e de maneira rapida, com opçôes para mudar cor de fundo, tamanho do texto, cor do texto, tipo de fonte  e adicionar faixa lateral, simples e eficas, em breve uma atualizaçâo corrigindo bugs e com designer responsivel.
 
 ![videoo](https://user-images.githubusercontent.com/93484378/149943101-51586adf-f99a-42db-9058-b64ee4005b00.gif)
 
